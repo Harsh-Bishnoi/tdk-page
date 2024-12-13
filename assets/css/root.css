@@ -1,0 +1,13 @@
+:root {
+    --fs-61: 61px;
+    --fs-22: 22px;
+    --fs-13: 13px;
+    --fs-30: 30px;
+    --fs-40: 40px;
+
+    /* color */
+
+    --bg-color-dark-blue:#023DA0;
+    --bg-color-light-blue:#0046AD;
+    --color-white:#FFFFFF;
+}

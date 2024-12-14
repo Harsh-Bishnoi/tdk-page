@@ -161,7 +161,7 @@ input::placeholder {
 
 .card {
     width: 100%;
-    background-color: #525252;
+    background-color: var(--card-color);
 }
 
 .group-img {
@@ -191,8 +191,8 @@ input::placeholder {
     }
 
     label[for="openslider"] {
-        width: 40px;
-        height: 25px;
+        width: 30px;
+        height: 23px;
         cursor: pointer;
         display: flex;
         flex-direction: column;
@@ -218,12 +218,12 @@ input::placeholder {
 
 
     input:checked~label[for="openslider"] span:first-child {
-        transform: rotate(32deg);
+        transform: rotate(37deg);
         transform-origin: left;
     }
 
     input:checked~label[for="openslider"] span:last-child {
-        transform: rotate(-30deg);
+        transform: rotate(-36deg);
         transform-origin: left;
     }
 
@@ -251,6 +251,10 @@ input::placeholder {
         padding-top: 85px;
     }
 
+    .para {
+        max-width: 453px;
+    }
+
 }
 
 @media (max-width:767.98px) {
@@ -272,7 +276,7 @@ input::placeholder {
     }
 }
 
-@media (max-width:576px) {
+@media (max-width:575.98px) {
     .heading {
         font-size: var(--fs-30);
         line-height: unset;
@@ -305,7 +309,13 @@ input::placeholder {
     }
 }
 
-@media (min-width:768px) {
+@media (max-width:331.98px) {
+    .para {
+        font-size: var(--fs-15);
+    }
+}
+
+@media (min-width:767.98px) {
     .bg-img {
         background-image: url(../svg/bg-img.svg);
         background-position: center;

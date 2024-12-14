@@ -251,10 +251,16 @@ input::placeholder {
         padding-top: 85px;
     }
 
-    .para {
-        max-width: 453px;
+    .input {
+        margin-top: 0;
     }
 
+    .search-icon-svg {
+        position: absolute;
+        right: 6%;
+        top: 27%;
+        cursor: pointer;
+    }
 }
 
 @media (max-width:767.98px) {
